@@ -1,0 +1,33 @@
+.book-container {
+    font-family: 'Fredoka', sans-serif;
+    margin: 20px;
+    background-color: #F4F2F7;
+    border-radius: 8px;
+    border: 2px solid #b4a6c9;
+
+    .btn-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+        width: 90%;
+        
+        .btn {
+            font-family: 'Caveat', cursive;
+            font-size: 18px;
+            background-color: #bfb3d0;
+            border: 1px solid transparent;
+            text-shadow: 1px 1px 1px transparent;
+            border-radius: 4px;
+            transition: 0.2s ease-in-out;
+            width: 55px;
+            height: 30px;
+
+            &:hover {
+                color: #F4F2F7;
+                border: 1px solid  #453659;
+                
+            }
+        }
+    }
+}
