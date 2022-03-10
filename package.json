@@ -1,6 +1,7 @@
 {
   "name": "react-redux-router",
   "version": "1.0.0",
+  "engines": {"node": "14.x"},
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
   "scripts": {
     "preinstall": "npm set audit false",
